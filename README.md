@@ -1,1 +1,3 @@
-# study-clone-kakao2020
+# KaKao Clone 2020
+
+### HTML & CSS are so much fun
