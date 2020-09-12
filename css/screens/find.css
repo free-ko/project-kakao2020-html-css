@@ -53,19 +53,20 @@
 }
 
 .open-post__title {
-  font-weight: 600;
-  margin-bottom: 7px;
+  font-size: 22px;
+  margin-bottom: 12px;
 }
 
 .open-post__hashtags {
+  margin-bottom: 12px;
   text-transform: uppercase;
   opacity: 0.6;
 }
 
 .open-post__members {
-  margin-top: 7px;
   display: flex;
   align-items: center;
+  margin-bottom: 12px;
 }
 
 .open-post__members img {
@@ -102,7 +103,7 @@
 .open-post__heart-count {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  padding: 5px;
+  padding: 5px 9px;
   border-radius: 20px;
   display: flex;
   align-items: center;

@@ -19,6 +19,7 @@
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
 
 .main-screen {
