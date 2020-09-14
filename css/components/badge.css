@@ -10,6 +10,13 @@
   font-weight: 600;
 }
 
+.new__badge {
+  background-color: tomato;
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+}
+
 .find__badge {
   position: absolute;
   right: 15px;
