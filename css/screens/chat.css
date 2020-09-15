@@ -39,6 +39,7 @@
   padding: 15px;
   font-size: 14px;
   border-radius: 25px;
+  margin-bottom: 25px;
 }
 
 .message-row {
@@ -54,8 +55,8 @@
 }
 
 .message__author {
-  margin-bottom: 5px;
   display: block;
+  margin-bottom: 5px;
 }
 
 .message__info {
