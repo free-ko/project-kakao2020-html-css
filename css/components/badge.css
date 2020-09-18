@@ -45,6 +45,7 @@
   align-items: center;
   color: white;
   font-weight: 600;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__badge-2 {
@@ -60,4 +61,16 @@
   align-items: center;
   color: white;
   font-weight: 600;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
 }
