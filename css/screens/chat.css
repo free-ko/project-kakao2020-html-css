@@ -21,23 +21,11 @@
   z-index: 1;
 }
 
-@keyframes fadeIn {
-  from {
-    transform: translateY(30px);
-    opacity: 0;
-  }
-  to {
-    transform: none;
-    opacity: 1;
-  }
-}
-
 .main-chat {
-  margin-top: 180px;
+  margin-top: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: fadeIn 0.8s linear;
 }
 
 .chat__timestamp {
@@ -50,10 +38,22 @@
   margin-bottom: 25px;
 }
 
-.message-row {
+.incoming-message {
   width: 100%;
   display: flex;
   margin-bottom: 25px;
+  animation: incomingAnim 0.5s ease-out forwards;
+}
+
+@keyframes incomingAnim {
+  from {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .message-row img {
@@ -88,11 +88,26 @@
   font-size: 14px;
 }
 
-.message-row--own {
+.sent-message {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
   justify-content: flex-end;
+  animation: sentAnimation 0.5s ease-out forwards;
 }
 
-.message-row--own .message__bubble {
+@keyframes sentAnimation {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.sent-message .message__bubble {
   background-color: var(--yellow);
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
@@ -100,7 +115,7 @@
   margin-left: 5px;
 }
 
-.message-row--own .message__info {
+.sent-message .message__info {
   flex-direction: row-reverse;
 }
 
@@ -182,10 +197,33 @@
 }
 
 .reply:focus-within input {
-  width: 98vw;
-  transform: translateX(-11%) translateY(-80px);
+  outline: none;
+  width: 90%;
+  transform: translateY(-150px);
+  border-radius: 40px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  animation: float 3s linear infinite forwards;
 }
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+      0 18px 36px -18px rgba(0, 0, 0, 0.3),
+      0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  }
+  50% {
+    box-shadow: 0 30px 60px -60px rgba(50, 50, 93, 0.25),
+      0 18px 36px -18px rgba(0, 0, 0, 0.3),
+      0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  }
+  100% {
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+      0 18px 36px -18px rgba(0, 0, 0, 0.3),
+      0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  }
 }
