@@ -1,10 +1,9 @@
 /* Status-bar */
 
 .status-bar {
-  position: fixed;
   display: flex;
   justify-content: center;
-  width: 100%;
+
   padding: 5px 3px;
 }
 .status-bar__column {
