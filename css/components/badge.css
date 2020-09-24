@@ -11,10 +11,18 @@
 }
 
 .new__badge {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
   background-color: tomato;
   border-radius: 50%;
   color: white;
   font-size: 14px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .find__badge {

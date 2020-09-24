@@ -28,3 +28,11 @@
 .setting-info {
   opacity: 0.5;
 }
+
+.settings__setting-column {
+  display: flex;
+}
+
+.settings__setting-column > div {
+  margin-left: 15px;
+}
