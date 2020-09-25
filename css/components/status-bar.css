@@ -9,6 +9,11 @@
 .status-bar__column {
   width: 33%;
 }
+
+.status-bar__column i {
+  font-size: 14px;
+}
+
 .status-bar__column:first-child span {
   margin-right: 5px;
 }
