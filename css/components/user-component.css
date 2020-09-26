@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 25px;
 }
 
 .user-component,
@@ -39,6 +40,31 @@
 
 .user-component__title--not-bold {
   font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.user-component__status {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.user__now-listening {
+  border: 2px solid violet;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.user__now-listening:hover {
+  background-color: violet;
+  color: white;
+  transition: all 0.23s ease-in;
+}
+
+.user__now-listening i {
+  font-size: 10px;
+  padding-left: 5px;
 }
 
 .user-component__column:last-child {
