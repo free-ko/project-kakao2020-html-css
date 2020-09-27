@@ -23,7 +23,7 @@
 
 .user-component__subtitle {
   margin-top: 8px;
-  font-size: 17px;
+  font-size: 14px;
   color: var(--gray);
 }
 
@@ -77,4 +77,6 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+  font-size: 14px;
+  opacity: 0.6;
 }
