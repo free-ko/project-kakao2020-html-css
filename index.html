@@ -12,47 +12,52 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Welcome to Kokoa Clone</title>
   </head>
-  <body>
-    <!-- Status-bar -->
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>Service</span>
-        <i class="fas fa-wifi"></i>
-      </div>
-      <div class="status-bar__column js-clock">
-        <span class="clock">18:43</span>
-      </div>
-      <div class="status-bar__column">
-        <span>100%</span>
-        <i class="fas fa-battery-full fa-lg"></i>
-        <i class="fas fa-bolt"></i>
-      </div>
-    </div>
+  <body class="phone-bg">
+    <div class="phone">
+      <div class="screen">
+        <!-- Status-bar -->
+        <div class="status-bar">
+          <div class="status-bar__column">
+            <span>Service</span>
+            <i class="fas fa-wifi"></i>
+          </div>
+          <div class="status-bar__column js-clock">
+            <span class="clock">18:43</span>
+          </div>
+          <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+          </div>
+        </div>
 
-    <!-- Header -->
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-      <p class="welcome-header__text">
-        If you have a Kokoa Account, log in with your email or phone number.
-      </p>
-    </header>
+        <!-- Header -->
+        <header class="welcome-header">
+          <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+          <p class="welcome-header__text">
+            Log in with <br />
+            your email or phone number.
+          </p>
+        </header>
 
-    <!-- Form -->
-    <form action="friends.html" method="get" id="login-form">
-      <input
-        required
-        name="username"
-        type="text"
-        placeholder="Email or phone number"
-      />
-      <input required name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kokoa Account or Password</a>
-    </form>
-
-    <!-- No-mobile -->
-    <div id="no-mobile">
-      <span>Your screen is too big 😩</span>
+        <!-- Form -->
+        <form action="friends.html" method="get" id="login-form">
+          <input
+            required
+            name="username"
+            type="text"
+            placeholder="Email or phone number"
+          />
+          <input
+            required
+            name="password"
+            type="password"
+            placeholder="Password"
+          />
+          <input type="submit" value="Log In" />
+          <a href="#">Find Kokoa Account or Password</a>
+        </form>
+      </div>
     </div>
 
     <script src="./clock.js"></script>

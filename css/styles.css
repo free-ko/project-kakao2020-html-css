@@ -30,3 +30,33 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
+
+.phone-bg {
+  background-color: #f8f7ff;
+  display: flex;
+  justify-content: center;
+}
+
+.phone {
+  margin-top: 50px;
+  background-color: white;
+  width: 350px;
+  height: 700px;
+  border-radius: 40px;
+  box-shadow: inset -6px -6px 15px rgba(145, 160, 180, 0.45),
+    30px 30px 40px rgba(118, 146, 180, 0.18);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.screen {
+  width: 320px;
+  height: 670px;
+  background: #f8f8f8;
+  border-radius: 25px;
+  padding: 0px 15px;
+  padding-top: 10px;
+  margin-top: 10px;
+  position: relative;
+  overflow: hidden;
+}
