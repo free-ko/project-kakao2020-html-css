@@ -84,3 +84,27 @@
     transform: none;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .find__badge {
+    right: 20px;
+    top: 50px;
+    width: 6px;
+    height: 6px;
+  }
+
+  .nav__badge-1 {
+    left: 10px;
+    bottom: 15px;
+    width: 16px;
+    height: 16px;
+    font-size: 8px;
+  }
+
+  .nav__badge-2 {
+    left: 18px;
+    bottom: 18px;
+    width: 6px;
+    height: 6px;
+  }
+}
