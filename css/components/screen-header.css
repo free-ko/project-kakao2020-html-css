@@ -33,6 +33,10 @@
 }
 
 @media screen and (max-width: 380px) {
+  .screen-header {
+    padding-top: 18px;
+  }
+
   .screen-header__title {
     font-size: 20px;
   }

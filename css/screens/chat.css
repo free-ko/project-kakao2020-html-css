@@ -226,3 +226,40 @@
       0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   }
 }
+
+@media screen and (max-width: 380px) {
+  #chat-screen .alt-header {
+    top: 12px;
+  }
+
+  .main-chat {
+    margin-top: 75px;
+  }
+
+  .chat__timestamp {
+    padding: 10px;
+    font-size: 11px;
+  }
+
+  .alt-header__title {
+    font-size: 22px;
+  }
+
+  .alt-header__column i {
+    font-size: 20px;
+  }
+
+  .message__author,
+  .message__time {
+    font-size: 12px;
+  }
+
+  .message__bubble {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .reply {
+    padding: 2px 16px;
+  }
+}
