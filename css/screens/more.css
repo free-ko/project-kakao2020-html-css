@@ -38,3 +38,32 @@
   font-size: 32px;
   color: white;
 }
+
+@media screen and (max-width: 380px) {
+  .more-suggestions__title {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  .more-suggestions__icons {
+    justify-content: space-around;
+  }
+
+  .more-suggestions__icon {
+    margin-right: 0;
+  }
+
+  .more-suggestions__icon-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .more-suggestions__icon-image i {
+    font-size: 20px;
+  }
+
+  .more-suggestions__icon-text {
+    font-size: 12px;
+    text-align: center;
+  }
+}

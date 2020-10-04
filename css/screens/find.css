@@ -118,3 +118,47 @@
     transform: none;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .recommended-friends__title {
+    font-size: 12px;
+  }
+
+  .recommended-friends span {
+    font-size: 16px;
+  }
+
+  .open-chat__header {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  .open-post {
+    margin-top: 60px;
+  }
+
+  .open-post__title {
+    font-size: 18px;
+  }
+
+  .open-post__hashtags {
+    font-size: 12px;
+  }
+
+  .open-post__member-count,
+  .open-post__member-status {
+    font-size: 12px;
+  }
+
+  .open-post__photo img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .open-post__heart-count {
+    padding: 3px 7px;
+    bottom: 8px;
+    right: 8px;
+    font-size: 6px;
+  }
+}
