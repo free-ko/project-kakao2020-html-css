@@ -64,14 +64,14 @@ body {
   .phone {
     margin-top: 20px;
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 16rem;
+    height: 31rem;
     padding: 20px;
   }
 
   .screen {
-    width: 220px;
-    height: 485px;
+    width: 14rem;
+    height: 31rem;
     border-radius: 25px;
     padding: 0px 15px;
     padding-top: 7px;
