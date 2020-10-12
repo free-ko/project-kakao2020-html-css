@@ -59,3 +59,21 @@ body {
   position: relative;
   overflow: hidden;
 }
+
+@media screen and (max-width: 320px) {
+  .phone {
+    margin-top: 20px;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    padding: 20px;
+  }
+
+  .screen {
+    width: 220px;
+    height: 485px;
+    border-radius: 25px;
+    padding: 0px 15px;
+    padding-top: 7px;
+  }
+}
