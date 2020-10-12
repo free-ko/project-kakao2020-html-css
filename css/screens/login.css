@@ -71,3 +71,30 @@
   color: inherit;
   font-size: 13px;
 }
+
+@media screen and (max-width: 380px) {
+  .welcome-header__title {
+    margin-bottom: 35px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .welcome-header__text {
+    font-size: 15px;
+  }
+
+  #login-form {
+    margin: auto;
+  }
+
+  #login-form input::placeholder {
+    font-size: 12px;
+  }
+
+  #login-form input[type="submit"] {
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
