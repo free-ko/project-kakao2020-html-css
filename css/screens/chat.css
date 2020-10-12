@@ -262,4 +262,7 @@
   .reply {
     padding: 2px 16px;
   }
+  .reply:focus-within input {
+    transform: translateY(-80px);
+  }
 }
