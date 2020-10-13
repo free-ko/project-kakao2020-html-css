@@ -58,6 +58,10 @@
   body {
     height: 896px;
   }
+
+  #splash-screen {
+    height: 100vh;
+  }
 }
 
 @keyframes hideSplashScreen {
