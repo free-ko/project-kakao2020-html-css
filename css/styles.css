@@ -7,6 +7,7 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/music-nav-bar.css";
 @import "components/screen-header.css";
 @import "components/alt-screen-header.css";
 @import "components/user-component.css";
@@ -21,6 +22,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/music.css";
 
 body {
   font-family: "Open Sans", sans-serif;
