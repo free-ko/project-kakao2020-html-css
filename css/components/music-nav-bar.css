@@ -1,0 +1,102 @@
+.music__nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 10px 50px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 40px rgba(118, 146, 180, 0.5);
+}
+
+.music__nav i {
+  font-size: 20px;
+}
+
+.music__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.music__link {
+  position: relative;
+  color: #2e363e;
+}
+
+.music__btn {
+  transform: translateY(30px);
+  opacity: 0;
+  animation: appearBtnAnimation 0.4s ease-in-out forwards;
+}
+
+.music__btn:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.music__btn:nth-child(3) {
+  cursor: pointer;
+  animation-delay: 0.5s;
+  background-color: #3e68ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  height: 55px;
+  width: 55px;
+  position: relative;
+  top: -35px;
+  color: white;
+  border-radius: 50%;
+  box-shadow: 5px 5px 40px rgba(118, 146, 180, 1);
+}
+
+.music__btn:nth-child(3) i {
+  margin-left: 3px;
+  color: white;
+}
+
+.music__btn:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.music__btn:last-child {
+  animation-delay: 0.11s;
+}
+
+@keyframes appearBtnAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .music__nav {
+    padding: 10px 25px;
+  }
+
+  .music__nav i {
+    font-size: 16px;
+  }
+
+  .music__btn:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  .music__btn:nth-child(3) {
+    top: -30px;
+    height: 45px;
+    width: 45px;
+    animation-delay: 0.5s;
+  }
+
+  .music__btn:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+
+  .music__btn:last-child {
+    animation-delay: 0.11s;
+  }
+}
