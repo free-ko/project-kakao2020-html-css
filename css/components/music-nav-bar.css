@@ -57,8 +57,9 @@
   color: white;
 }
 
-.fa-pause {
+#music__pause-btn {
   margin-left: 0;
+  display: none;
 }
 
 .music__btn:nth-child(4) {
