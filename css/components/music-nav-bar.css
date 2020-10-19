@@ -49,9 +49,16 @@
   box-shadow: 5px 5px 40px rgba(118, 146, 180, 1);
 }
 
-.music__btn:nth-child(3) i {
+.music__play-btn {
   margin-left: 3px;
+}
+
+.music__btn:nth-child(3) i {
   color: white;
+}
+
+.fa-pause {
+  margin-left: 0;
 }
 
 .music__btn:nth-child(4) {
