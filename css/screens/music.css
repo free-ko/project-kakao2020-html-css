@@ -27,7 +27,6 @@
   transition: opacity 0.3s ease-in;
 }
 
-/* */
 .music-icon-row {
   display: flex;
   justify-content: space-between;
@@ -46,8 +45,6 @@
 .music-icon-row__icon span {
   margin-top: 18px;
 }
-
-/**/
 
 .music__list--img:hover {
   opacity: 0.6;
