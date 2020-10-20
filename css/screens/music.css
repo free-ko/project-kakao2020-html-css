@@ -10,6 +10,7 @@
   left: 40%;
   color: white;
   opacity: 0.9;
+  cursor: pointer;
 }
 
 .music-icon-row__icon span {
@@ -36,10 +37,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.music-icon-row__icon i {
-  font-size: 35px;
 }
 
 .music-icon-row__icon span {
