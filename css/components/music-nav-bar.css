@@ -57,6 +57,10 @@
   color: white;
 }
 
+#music__play-btn {
+  margin-left: 3px;
+}
+
 #music__pause-btn {
   margin-left: 0;
   display: none;
