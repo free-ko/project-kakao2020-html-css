@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music-Play | Kokoa Clone</title>
+  </head>
+
+  <body>
+    <!-- Status-bar -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column js-clock">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- Screen-Header -->
+    <header class="screen-header  music-screen">
+      <a href="#" onclick="history.back()">
+        <i class="fas fa-angle-left"></i>
+      </a>
+      <a class="music__link" href="more.html">
+        <i class="fas fa-ellipsis-h"></i>
+      </a>
+    </header>
+
+    <!-- Main-Screen -->
+    <main class="music-play__main">
+      <div class="music-play__img"></div>
+      <h3>Still On My Way</h3>
+      <h5>Dok2(feat.zionT)</h5>
+      <div class="music-play__icons">
+        <i class="fas fa-sync-alt"></i>
+        <i class="fas fa-headphones-alt"></i>
+        <i class="fas fa-volume-up"></i>
+        <i class="fas fa-heart"></i>
+      </div>
+    </main>
+
+    <!-- Nav -->
+    <nav class="music__nav">
+
+      <ul class="music-play__list">
+        <li class="music-play__btn">
+          <a class="music__link" href="#">
+            <i class="fas fa-backward"></i> 
+          </a>
+        </li>
+        <li class="music-play__btn ">
+          <a class="music__link" href="#">
+            <i id="music__play-btn" class="fas fa-play"></i>
+            <i id="music__pause-btn" class="fas fa-pause"></i>
+          </a>
+        </li>
+        <li class="music-play__btn">
+          <a class="music__link" href="#">
+            <i class="fas fa-forward"></i>
+         </a>
+        </li>
+      </ul>
+
+    </nav>
+
+    <!-- No-mobile -->
+    <div id="no-mobile">
+      <span>Your screen is too big 😩</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/button.js"></script>
+  </body>
+</html>
