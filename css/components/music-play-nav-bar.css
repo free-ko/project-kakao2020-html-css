@@ -1,0 +1,81 @@
+.music-play-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 40px rgba(118, 146, 180, 0.5);
+  }
+  
+.music-play-nav i {
+    font-size: 20px;
+}
+
+.music-play-nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.music-play-nav__link {
+position: relative;
+color: #2e363e;
+}
+
+.music-play-nav__btn {
+transform: translateY(30px);
+opacity: 0;
+animation: appearBtnAnimation 0.4s ease-in-out forwards;
+}
+
+.music-play-nav__btn:nth-child(2) {
+    cursor: pointer;
+    animation-delay: 0.5s;
+    background-color: #3e68ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    height: 55px;
+    width: 55px;
+    position: relative;
+    top: -35px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 40px rgba(118, 146, 180, 1);
+}
+
+.music-play-nav__btn:nth-child(2) i {
+    color: white;
+}
+
+.music-play-nav__play-btn {
+    margin-left: 3px;
+}
+
+#music__play-btn {
+    margin-left: 3px;
+}
+
+#music__pause-btn {
+    margin-left: 0;
+    display: none;
+}
+
+  
+@keyframes appearBtnAnimation {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+    transform: none;
+}
+}
+  
+@media screen and (max-width: 380px) {
+    .music-play-nav {
+        padding: 10px 50px;
+      }
+}
+  
