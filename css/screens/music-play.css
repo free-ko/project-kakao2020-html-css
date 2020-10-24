@@ -186,8 +186,18 @@
 
 
 /* Mobile */
+@media screen and (max-width: 320px) {
+  .music-play__img-1 {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+}
+
+
 @media screen and (max-width: 380px) {
-  .music-play__img {
+  .music-play__img-1 {
     width: 12rem;
     height: 12rem;
     margin-top: 2rem;

@@ -5,7 +5,7 @@ const pauseIcon = document.getElementById("music__pause-btn");
 const musicPlayImg = document.querySelector(".rotate__img");
 const musicPlaying = document.getElementById("music");
 
-const img1 = document.querySelector("music-play__img-1").style.display='block';
+const img1 = document.querySelector("music-play__img-1");
 const img2 = document.querySelector("music-play__img-2");
 
 
