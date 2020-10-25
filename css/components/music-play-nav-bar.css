@@ -72,10 +72,34 @@ to {
     transform: none;
 }
 }
-  
-@media screen and (max-width: 380px) {
+
+/* Mobile - iPhone 5/SE */
+@media screen and (max-width: 320px) {
+    .music-play-nav {
+        padding: 10px 60px;
+    }
+
+    .music-play-nav__link i {
+        font-size: 1rem;
+    }
+
+    .music-play-nav__btn:nth-child(2) {
+        height: 45px;
+        width: 45px;
+    }
+}
+
+/* Mobile - iPhone 6/7/8 */
+@media screen and (min-width: 321px) and (max-width: 380px) {
     .music-play-nav {
         padding: 10px 50px;
       }
+}
+
+/* Mobile - iPhone X */
+@media screen and (height:812px) {
+    .music-play-nav {
+        padding: 10px 70px;
+    }
 }
   
