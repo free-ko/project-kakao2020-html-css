@@ -88,6 +88,11 @@ body {
   }
 }
 
+/* iPhone 5/SE */
+@media screen and (max-width:320px) {
+
+}
+
 @media screen and (min-width: 321px) and (max-width: 375px) {
   .phone-bg {
     height: 667px;
