@@ -71,6 +71,10 @@
   cursor: pointer;
 }
 
+.music-play__icons i{
+  font-size: 1.2rem;
+}
+
 /* Animation*/
 @keyframes appearBtnAnimation {
   from {
@@ -218,6 +222,10 @@
     width: 10px;
     height: 1px;
   }
+
+  .music-play__icons i{
+    font-size: 1rem;
+  }
 }
 
 
@@ -248,6 +256,10 @@
     margin-bottom: 5.5rem;
     width: 80%;
     cursor: pointer;
+  }
+
+  .music-play__icons i{
+    font-size: 1rem;
   }
 
   .now.playing .bar {
@@ -282,6 +294,10 @@
     cursor: pointer;
   }
 
+  .music-play__icons i{
+    font-size: 1rem;
+  }
+
   .now.playing .bar {
     margin-right: 2px;
     width: 12px;
@@ -299,7 +315,7 @@
   .music-play__img-1 {
     width: 16rem;
     height: 16rem;
-    margin-top: 0.3rem;
+    margin-top: 0.5rem;
     margin-bottom: 3rem;
   }
 
@@ -317,6 +333,10 @@
     margin-bottom: 8rem;
     width: 80%;
     cursor: pointer;
+  }
+
+  .music-play__icons i{
+    font-size: 1.1rem;
   }
 
   .now.playing .bar {

@@ -65,6 +65,12 @@ body {
 }
 
 @media screen and (max-width: 320px) {
+  .phone-bg {
+    background-color: #f8f7ff;
+    display: flex;
+    justify-content: center;
+  }
+  
   .phone {
     margin-top: 20px;
     background-color: white;
@@ -82,7 +88,14 @@ body {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .phone-bg {
+    height: 667px;
+    background-color: #f8f7ff;
+    display: flex;
+    justify-content: center;
+  }
+
   .phone {
     width: 16rem;
     height: 31rem;
@@ -91,6 +104,50 @@ body {
   .screen {
     width: 14rem;
     height: 31rem;
+    padding: 0px 1rem;
+    padding-top: 0.5rem;
+  }
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  .phone-bg {
+    height: 736px;
+    background-color: #f8f7ff;
+    display: flex;
+    justify-content: center;
+  }
+
+  .phone {
+    width: 18rem;
+    height: 36rem;
+  }
+
+  .screen {
+    width: 16rem;
+    height: 35rem;
+    padding: 0px 1rem;
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (height:812px){
+  .phone-bg {
+    height: 812px;
+    background-color: #f8f7ff;
+    display: flex;
+    justify-content: center;
+  }
+
+  .phone {
+    margin-top: 6rem;
+    width: 19rem;
+    height: 37rem;
+  }
+
+  .screen {
+    width: 17rem;
+    height: 36rem;
     padding: 0px 1rem;
     padding-top: 0.5rem;
   }
