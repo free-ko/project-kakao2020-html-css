@@ -270,8 +270,142 @@
   }
 }
 
+/* iPhone 6/7/8 */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  body {
+    height:auto;
+    width:100%;
+  }
 
+  .music__list--img {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  .recommended-music__list--img {
+    width: 7rem;
+    height: 7rem;
+  }
 
-@media screen and (min-width: 321px) and(max-width: 375px) {
- 
+  .recommended-music {
+    margin-top: 1.8rem;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+
+  .music-open-chat {
+    margin-top: 2rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .music-open-post {
+    margin-top: 0;
+  }
+
+  .hidden-section {
+    display: none;
+  }
+
+  .music-icon-row__icon span {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .music-open-post {
+    margin-bottom: 2rem;
+  }
+
+  .music-open-post__title {
+    font-size: 18px;
+  }
+
+  .music-open-post__hashtags {
+    font-size: 12px;
+  }
+
+  .music-open-post__member-count,
+  .music-open-post__member-status {
+    font-size: 12px;
+  }
+
+  .music-open-post__photo img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .music-open-post__heart-count {
+    padding: 4px 8px;
+    bottom: 9px;
+    right: 9px;
+    font-size: 10px;
+  }
+}
+
+/* iPhone 6/7/8 Plus */
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  body {
+    height:auto;
+    width:100%;
+  }
+
+  .music__list--img {
+    width: 4.3rem;
+    height: 4.3rem;
+  }
+  
+  .recommended-music__list--img {
+    width: 6.8rem;
+    height: 6.8rem;
+  }
+
+  .recommended-music {
+    margin-top: 1.8rem;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+
+  .music-open-chat {
+    margin-top: 2rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .music-open-post {
+    margin-top: 0;
+  }
+
+  .music-icon-row__icon span {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .music-open-post {
+    margin-bottom: 2rem;
+  }
+
+  .music-open-post__title {
+    font-size: 18px;
+  }
+
+  .music-open-post__hashtags {
+    font-size: 12px;
+  }
+
+  .music-open-post__member-count,
+  .music-open-post__member-status {
+    font-size: 12px;
+  }
+
+  .music-open-post__photo img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .music-open-post__heart-count {
+    padding: 4px 8px;
+    bottom: 9px;
+    right: 9px;
+    font-size: 10px;
+  }
 }
