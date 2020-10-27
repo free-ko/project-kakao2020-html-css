@@ -17,7 +17,20 @@
   margin-top: 18px;
 }
 
-@media screen and (max-width: 380px) {
+
+/* iPhone 5/SE */
+@media screen and (max-width: 320px) {
+  .icon-row__icon i {
+    font-size: 1.6rem;
+  }
+  
+  .icon-row__icon span {
+    font-size: 10px;
+  }
+}
+
+/* iPhone 6/7/8*/
+@media screen and (min-width: 321px) and (max-width: 380px) {
   .icon-row {
     align-items: center;
   }
@@ -29,5 +42,19 @@
   .icon-row__icon span {
     margin-top: 10px;
     font-size: 12px;
+  }
+}
+
+
+/* iPhone 6/7/8/Plui*/
+@media screen and (min-width: 381px) and (max-width: 414px) {
+
+  .icon-row__icon i {
+    font-size: 1.8rem;
+  }
+
+  .icon-row__icon span {
+    margin-top: 10px;
+    font-size: 0.7rem;
   }
 }
