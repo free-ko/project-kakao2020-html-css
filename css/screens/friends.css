@@ -54,16 +54,6 @@
   animation-delay: 1s;
 }
 
-@media screen and (max-width: 380px) {
-  body {
-    height: 896px;
-  }
-
-  #splash-screen {
-    height: 100vh;
-  }
-}
-
 @keyframes hideSplashScreen {
   from {
     opacity: 1;
@@ -73,3 +63,36 @@
     visibility: hidden;
   }
 }
+
+
+
+/* iPhone 5/SE */
+@media screen and (max-width: 320px) {
+  .friends-screen {
+    padding-bottom: 4rem;
+  }
+
+  #friends-display-link {
+    font-size: 14px;
+    padding: 12px 0;
+  }
+
+}
+
+
+/* iPhone 6/7/8*/
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .friends-screen {
+    padding-bottom: 4rem;
+  }
+}
+
+
+/* iPhone 6/7/8/Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  .friends-screen {
+    padding-bottom: 4rem;
+  }
+}
+
+

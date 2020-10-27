@@ -227,7 +227,59 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+
+/* iPhone 5/SE */
+
+@media screen and (max-width:320px) {
+  body {
+    height: auto;
+  }
+
+  #chat-screen .alt-header {
+    top: 12px;
+  }
+
+  .main-screen {
+    padding-bottom: 0;
+  }
+
+  .main-chat {
+    margin-top: 75px;
+  }
+
+  .chat__timestamp {
+    padding: 10px;
+    font-size: 11px;
+  }
+
+  .alt-header__title {
+    font-size: 22px;
+  }
+
+  .alt-header__column i {
+    font-size: 20px;
+  }
+
+  .message__author,
+  .message__time {
+    font-size: 10px;
+  }
+
+  .message__bubble {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .reply {
+    padding: 2px 16px;
+  }
+  .reply:focus-within input {
+    transform: translateY(-80px);
+
+}
+
+/* iPhone 6/7/8 */
+@media screen and (min-width: 321px) and (max-width: 375px) {
   #chat-screen .alt-header {
     top: 12px;
   }
