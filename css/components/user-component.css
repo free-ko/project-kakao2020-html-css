@@ -81,7 +81,9 @@
   opacity: 0.6;
 }
 
-@media screen and (max-width: 380px) {
+
+/* iPhone 5/SE */
+@media screen and (max-width: 320px) {
   .user-component__column:last-child > div {
     font-size: 12px;
   }
@@ -102,6 +104,164 @@
 
   .user-component__subtitle {
     font-size: 12px;
+  }
+
+  .user-component__title--not-bold {
+    font-size: 16px;
+  }
+
+  .user-component__status {
+    font-size: 12px;
+  }
+
+  .user-component__time {
+    font-size: 12px;
+  }
+
+  .user__now-listening {
+    padding: 5px 8px;
+  }
+
+  .user__now-listening span {
+    display: none;
+  }
+
+  .user__now-listening i {
+    padding-left: 0;
+  }
+
+}
+
+/* iPhone 6/7/8 */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .user-component__column:last-child > div {
+    font-size: 12px;
+  }
+
+  .user-component__column:last-child > i {
+    font-size: 28px;
+  }
+
+  .user-component__avatar--xl {
+    width: 60px;
+    height: 60px;
+  }
+
+  .user-component__title {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .user-component__subtitle {
+    font-size: 12px;
+  }
+
+  .user-component__title--not-bold {
+    font-size: 16px;
+  }
+
+  .user-component__status {
+    font-size: 12px;
+  }
+
+  .user-component__time {
+    font-size: 12px;
+  }
+
+  .user__now-listening {
+    padding: 5px 8px;
+  }
+
+  .user__now-listening span {
+    display: none;
+  }
+
+  .user__now-listening i {
+    padding-left: 0;
+  }
+}
+
+/* iPhone 6/7/8/Plus */
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  .user-component__avatar {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .user-component__column:last-child > div {
+    font-size: 12px;
+  }
+
+  .user-component__column:last-child > i {
+    font-size: 28px;
+  }
+
+  .user-component__avatar--xl {
+    width: 60px;
+    height: 60px;
+  }
+
+  .user-component__title {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  .user-component__subtitle {
+    font-size: 0.8rem;
+  }
+
+  .user-component__title--not-bold {
+    font-size: 16px;
+  }
+
+  .user-component__status {
+    font-size: 12px;
+  }
+
+  .user-component__time {
+    font-size: 12px;
+  }
+
+  .user__now-listening {
+    padding: 5px 8px;
+  }
+
+  .user__now-listening span {
+    display: none;
+  }
+
+  .user__now-listening i {
+    padding-left: 0;
+  }
+}
+
+/* iPhone X */
+@media screen and (height:812px) {
+  .user-component__avatar {
+    width: 75px;
+    height: 75px;
+  }
+  
+  .user-component__column:last-child > div {
+    font-size: 12px;
+  }
+
+  .user-component__column:last-child > i {
+    font-size: 28px;
+  }
+
+  .user-component__avatar--xl {
+    width: 76px;
+    height: 76px;
+  }
+
+  .user-component__title {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  .user-component__subtitle {
+    font-size: 0.9rem;
   }
 
   .user-component__title--not-bold {
