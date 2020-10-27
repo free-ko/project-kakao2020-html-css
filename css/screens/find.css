@@ -120,17 +120,35 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+/* iPhone 5/SE */
+@media screen and (max-width: 320px) {
+  
+  .recommended-friends span{
+    margin: 6rem 0;
+  }
+
+  .open-chat {
+    padding-bottom: 5rem;
+  }
+}
+
+
+/* iPhone 6/7/8*/
+@media screen and (min-width: 321px) and (max-width: 380px) {
   .recommended-friends__title {
-    font-size: 12px;
+    font-size: 0.8rem;
   }
 
   .recommended-friends span {
-    font-size: 16px;
+    font-size: 1rem;
+  }
+
+  .open-chat {
+    padding-bottom: 5rem;
   }
 
   .open-chat__header {
-    font-size: 12px;
+    font-size: 0.8rem;
     margin-bottom: 0;
   }
 
@@ -154,6 +172,56 @@
   .open-post__photo img {
     width: 90px;
     height: 90px;
+  }
+
+  .open-post__heart-count {
+    padding: 3px 7px;
+    bottom: 8px;
+    right: 8px;
+    font-size: 6px;
+  }
+}
+
+
+/* iPhone 6/7/8/Plus*/
+@media screen and (min-width: 381px) and (max-width: 414px) {
+  .recommended-friends__title {
+    font-size: 1rem;
+  }
+
+  .recommended-friends span {
+    font-size: 1.2rem;
+  }
+
+  .open-chat {
+    padding-bottom: 5rem;
+  }
+
+  .open-chat__header {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
+
+  .open-post {
+    margin-top: 60px;
+  }
+
+  .open-post__title {
+    font-size: 1.2rem;
+  }
+
+  .open-post__hashtags {
+    font-size: 12px;
+  }
+
+  .open-post__member-count,
+  .open-post__member-status {
+    font-size: 12px;
+  }
+
+  .open-post__photo img {
+    width: 7rem;
+    height: 7rem;
   }
 
   .open-post__heart-count {

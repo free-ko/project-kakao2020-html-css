@@ -208,8 +208,8 @@
 /* Mobile - iPhone 5/SE */
 @media screen and (max-width: 320px) {
   body {
-    height:auto;
-    width:100%;
+    height: auto;
+    width: 100%;
   }
 
   .music__list--img {
