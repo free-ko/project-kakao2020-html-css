@@ -40,13 +40,14 @@
 
 .user-component__title--not-bold {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 5px;
 }
 
 .user-component__status {
   font-size: 14px;
   opacity: 0.6;
+  margin-top: 8px;
 }
 
 .user__now-listening {
@@ -98,7 +99,7 @@
   }
 
   .user-component__title {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
   }
 
@@ -107,10 +108,12 @@
   }
 
   .user-component__title--not-bold {
+    font-weight: 400;
     font-size: 16px;
   }
 
   .user-component__status {
+    margin-top: 6px;
     font-size: 12px;
   }
 
@@ -148,7 +151,7 @@
   }
 
   .user-component__title {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
   }
 
@@ -157,10 +160,12 @@
   }
 
   .user-component__title--not-bold {
+    font-weight: 400;
     font-size: 16px;
   }
 
   .user-component__status {
+    margin-top: 8px;
     font-size: 12px;
   }
 
@@ -211,10 +216,12 @@
   }
 
   .user-component__title--not-bold {
+    font-weight: 400;
     font-size: 16px;
   }
 
   .user-component__status {
+    margin-top: 10px;
     font-size: 12px;
   }
 
@@ -265,6 +272,7 @@
   }
 
   .user-component__title--not-bold {
+    font-weight: 400;
     font-size: 16px;
   }
 
