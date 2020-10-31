@@ -1,4 +1,3 @@
-
 const playIcon = document.getElementById("music__play-btn");
 const nextIcon = document.getElementById("music__next-btn");
 const pauseIcon = document.getElementById("music__pause-btn");

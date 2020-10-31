@@ -215,6 +215,7 @@
   .music-play__main {
     position: relative;
     overflow: hidden;
+    padding-top: 1rem;
   }
 
   .music-play__img-1 {
@@ -285,6 +286,7 @@
   .music-play__main {
     position: relative;
     overflow: hidden;
+    padding-top: 1rem;
   }
   
   .music-play__img-1 {
