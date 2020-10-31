@@ -57,6 +57,10 @@
   animation: rotateImg 2.3s linear infinite;
 }
 
+.paused {
+  animation-play-state; paused;
+}
+
 @keyframes rotateImg {
   from {
     transform: none;
@@ -229,7 +233,7 @@
     opacity: 0.8;
     position: absolute;
     display: inherit;
-    top: 7%;
+    top: 10%;
     right: 85%;
     width: 7rem;
     height: 7rem;
@@ -241,7 +245,7 @@
     opacity: 0.8;
     position: absolute;
     display: inherit;
-    top: 7%;
+    top: 10%;
     left: 85%;
     width: 7rem;
     height: 7rem;
@@ -300,7 +304,7 @@
     opacity: 0.8;
     position: absolute;
     display: inherit;
-    top: 10%;
+    top: 12%;
     right: 87%;
     width: 8rem;
     height: 8rem;
@@ -312,7 +316,7 @@
     opacity: 0.8;
     position: absolute;
     display: inherit;
-    top: 10%;
+    top: 12%;
     left: 87%;
     width: 8rem;
     height: 8rem;
@@ -373,7 +377,7 @@
     opacity: 0.8;
     position: absolute;
     display: inherit;
-    top: 11%;
+    top: 12%;
     right: 88%;
     width: 8rem;
     height: 8rem;
@@ -385,7 +389,7 @@
     opacity: 0.8;
     position: absolute;
     display: inherit;
-    top: 11%;
+    top: 12%;
     left: 88%;
     width: 8rem;
     height: 8rem;
@@ -446,7 +450,7 @@
     opacity: 0.8;
     position: absolute;
     display: inherit;
-    top: 11%;
+    top: 12%;
     right: 88%;
     width: 8rem;
     height: 8rem;
@@ -458,7 +462,7 @@
     opacity: 0.8;
     position: absolute;
     display: inherit;
-    top: 11%;
+    top: 12%;
     left: 88%;
     width: 8rem;
     height: 8rem;

@@ -16,15 +16,15 @@ playIcon.addEventListener("click", () => {
 })
 
 pauseIcon.addEventListener("click", () => {
-    musicPlayImg.classList.remove("active");
+    musicPlayImg.classList.remove("active")
     musicPlaying.style.display = "none"
+    musicPlaying.style.animationPlayState = "paused"
     pauseIcon.style.display = "none"
     playIcon.style.display = "flex"
 })
 
 nextIcon.addEventListener("click", () => {
     img1.style.display = "none"
-    img2.style.display = "flex"
 })
 
 // toggle 이용할 수 있도록 해보기.
