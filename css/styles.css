@@ -66,7 +66,7 @@ body {
 }
 
 .screen {
-  width: 315px;
+  width: 310px;
   height: 600px;
   background: #f8f8f8;
   border-radius: 25px;
@@ -74,6 +74,10 @@ body {
   padding-top: 7px;
   position: relative;
   overflow-y: scroll;
+}
+
+.screen::-webkit-scrollbar {
+  display: none;
 }
 
 
