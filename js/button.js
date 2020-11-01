@@ -9,16 +9,16 @@ const img2 = document.querySelector("music-play__img-2");
 
 
 playIcon.addEventListener("click", () => {
-    musicPlayImg.classList.add("active");
+    musicPlayImg.classList.add("active")
     musicPlaying.style.display = "flex"
     playIcon.style.display = "none"
     pauseIcon.style.display = "flex"
+    musicPlayImg.classList.remove("paused")
 })
 
 pauseIcon.addEventListener("click", () => {
-    musicPlayImg.classList.remove("active")
+    musicPlayImg.classList.add("paused")
     musicPlaying.style.display = "none"
-    musicPlaying.style.animationPlayState = "paused"
     pauseIcon.style.display = "none"
     playIcon.style.display = "flex"
 })

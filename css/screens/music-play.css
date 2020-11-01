@@ -58,7 +58,7 @@
 }
 
 .paused {
-  animation-play-state; paused;
+  animation-play-state: paused;
 }
 
 @keyframes rotateImg {
