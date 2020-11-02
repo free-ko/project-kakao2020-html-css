@@ -10,11 +10,12 @@
 }
 
 .icon-row__icon i {
-  font-size: 35px;
+  font-size: 1.4rem;
 }
 
 .icon-row__icon span {
-  margin-top: 18px;
+  margin-top: 12px;
+  font-size: 10px;
 }
 
 
