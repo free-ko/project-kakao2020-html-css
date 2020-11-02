@@ -23,7 +23,7 @@
 
 .user-component__subtitle {
   margin-top: 8px;
-  font-size: 14px;
+  font-size: 12px;
   color: var(--gray);
 }
 
@@ -78,8 +78,14 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
-  font-size: 14px;
+  font-size: 12px;
   opacity: 0.6;
+}
+
+/* Chats */
+
+.chats-component {
+  margin-bottom: 2rem;
 }
 
 

@@ -1,13 +1,13 @@
 .badge {
   background-color: tomato;
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 12px;
+  font-size: 8px;
   font-weight: 600;
 }
 
@@ -26,8 +26,8 @@
 
 .find__badge {
   position: absolute;
-  right: 28px;
-  top: 49px;
+  right: 0.8rem;
+  top: 1rem;
   background-color: tomato;
   width: 6px;
   height: 6px;
@@ -44,25 +44,25 @@
   left: 15px;
   bottom: 15px;
   background-color: tomato;
-  width: 20px;
-  height: 20px;
-  border-radius: 15px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 12px;
+  font-size: 8px;
   font-weight: 600;
   animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__badge-2 {
   position: absolute;
-  left: 23px;
-  bottom: 20px;
+  left: 1.3rem;
+  bottom: 1.1rem;
   background-color: tomato;
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   display: flex;
   justify-content: center;

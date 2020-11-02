@@ -43,12 +43,7 @@ body {
   font-weight: 600;
 }
 
-.main-screen {
-  padding: 0px var(--horizontal-space);
-}
-
 .phone-bg {
-  background-color: #f8f7ff;
   display: flex;
   justify-content: center;
 }
@@ -63,6 +58,7 @@ body {
     30px 30px 40px rgba(118, 146, 180, 0.18);
   overflow: hidden;
   padding: 20px;
+  position: relative;
 }
 
 .screen {
@@ -72,7 +68,6 @@ body {
   border-radius: 25px;
   padding: 0px 15px;
   padding-top: 7px;
-  position: relative;
   overflow-y: scroll;
 }
 

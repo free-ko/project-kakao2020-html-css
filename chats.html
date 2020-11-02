@@ -6,184 +6,183 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chats - Kokoa Clone</title>
   </head>
-  <body>
-    <!-- Status-bar -->
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>Service</span>
-        <i class="fas fa-wifi"></i>
+  <body class="phone-bg">
+    <div class="phone">
+      <div class="screen">
+          <!-- Status-bar -->
+          <div class="status-bar">
+            <div class="status-bar__column">
+              <span>Service</span>
+              <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column js-clock">
+              <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+              <span>100%</span>
+              <i class="fas fa-battery-full fa-lg"></i>
+              <i class="fas fa-bolt"></i>
+            </div>
+          </div>
+      
+          <!-- Screen-Header -->
+          <header class="screen-header chats-header">
+            <h1 class="screen-header__title">Chats</h1>
+            <div class="screen-header__icons">
+              <span><a href="find.html"><i class="fas fa-search fa-lg"></i></a></span>
+              <span><i class="far fa-comment-dots fa-lg"></i></span>
+              <span><a href="music.html"><i class="fas fa-music fa-lg"></i></a></span>
+              <span>
+                <span class="find__badge"></span>
+                <a href="settings.html">
+                  <i class="fas fa-cog fa-lg"></i>
+                </a>
+              </span>
+            </div>
+          </header>
+      
+          <!-- Main Screen -->
+          <main class="main-screen">
+            <a href="chat.html">
+              <div class="user-component chats-component">
+                <div class="user-component__column">
+                  <img
+                    src="./images/my-profile.png"
+                    class="user-component__avatar user-component__avatar"
+                  />
+                  <div class="user-component__text">
+                    <h4 class="user-component__title">FREEKO</h4>
+                    <h6 class="user-component__subtitle">
+                      Please Check My Kokoa
+                    </h6>
+                  </div>
+                </div>
+                <div class="user-component__column">
+                  <span class="user-component__time">21:22</span>
+                  <div class="badge">1</div>
+                </div>
+              </div>
+            </a>
+            <a href="chat1.html">
+              <div class="user-component chats-component">
+                <div class="user-component__column">
+                  <img
+                    src="./images/friend5.jpg"
+                    class="user-component__avatar user-component__avatar"
+                  />
+                  <div class="user-component__text">
+                    <h4 class="user-component__title">WonYung</h4>
+                    <h6 class="user-component__subtitle">Always Study!!</h6>
+                  </div>
+                </div>
+                <div class="user-component__column">
+                  <span class="user-component__time">21:22</span>
+                  <div class="badge">1</div>
+                </div>
+              </div>
+            </a>
+            <a href="chat2.html">
+              <div class="user-component chats-component">
+                <div class="user-component__column">
+                  <img
+                    src="./images/friend1.jpg"
+                    class="user-component__avatar user-component__avatar"
+                  />
+                  <div class="user-component__text">
+                    <h4 class="user-component__title">SukYung</h4>
+                    <h6 class="user-component__subtitle">Hello ~ ~</h6>
+                  </div>
+                </div>
+                <div class="user-component__column">
+                  <span class="user-component__time">21:22</span>
+                  <div class="badge">1</div>
+                </div>
+              </div>
+            </a>
+            <a href="chat3.html">
+              <div class="user-component chats-component">
+                <div class="user-component__column">
+                  <img
+                    src="./images/friend2.jpg"
+                    class="user-component__avatar user-component__avatar"
+                  />
+                  <div class="user-component__text">
+                    <h4 class="user-component__title">SunYung</h4>
+                    <h6 class="user-component__subtitle">I want health girl.</h6>
+                  </div>
+                </div>
+                <div class="user-component__column">
+                  <span class="user-component__time">21:22</span>
+                  <div class="badge">2</div>
+                </div>
+              </div>
+            </a>
+            <a href="chat4.html">
+              <div class="user-component chats-component">
+                <div class="user-component__column">
+                  <img
+                    src="./images/friend3.jpg"
+                    class="user-component__avatar user-component__avatar"
+                  />
+                  <div class="user-component__text">
+                    <h4 class="user-component__title">JuLee</h4>
+                    <h6 class="user-component__subtitle">Hi yo~!</h6>
+                  </div>
+                </div>
+                <div class="user-component__column">
+                  <span class="user-component__time">21:22</span>
+                </div>
+              </div>
+            </a>
+            <a href="chat5.html chats-component">
+              <div class="user-component">
+                <div class="user-component__column">
+                  <img
+                    src="./images/friend4.jpg"
+                    class="user-component__avatar user-component__avatar"
+                  />
+                  <div class="user-component__text">
+                    <h4 class="user-component__title">CheaBin</h4>
+                    <h6 class="user-component__subtitle">When we'll meet?</h6>
+                  </div>
+                </div>
+                <div class="user-component__column">
+                  <span class="user-component__time">21:22</span>
+                  <div class="badge">3</div>
+                </div>
+              </div>
+            </a>
+          </main>
+      
+          <!-- Nav -->
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__btn">
+                <a class="nav__link" href="friends.html"
+                  ><i class="far fa-user fa-2x"></i
+                ></a>
+              </li>
+              <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                  <span class="nav__badge-1">8</span>
+                  <i class="fas fa-comment fa-2x"></i>
+                </a>
+              </li>
+              <li class="nav__btn">
+                <a class="nav__link" href="find.html"
+                  ><i class="fas fa-search fa-2x"></i
+                ></a>
+              </li>
+              <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                  <span class="nav__badge-2"></span>
+                  <i class="fas fa-ellipsis-h fa-2x"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div class="status-bar__column js-clock">
-        <span>18:43</span>
-      </div>
-      <div class="status-bar__column">
-        <span>100%</span>
-        <i class="fas fa-battery-full fa-lg"></i>
-        <i class="fas fa-bolt"></i>
-      </div>
-    </div>
-
-    <!-- Screen-Header -->
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><a href="find.html"><i class="fas fa-search fa-lg"></i></a></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><a href="music.html"><i class="fas fa-music fa-lg"></i></a></span>
-        <span>
-          <span class="find__badge"></span>
-          <a href="settings.html">
-            <i class="fas fa-cog fa-lg"></i>
-          </a>
-        </span>
-      </div>
-    </header>
-
-    <!-- Main Screen -->
-    <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="./images/my-profile.png"
-              class="user-component__avatar user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">FREEKO</h4>
-              <h6 class="user-component__subtitle">
-                Please Check My Kokoa
-              </h6>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <div class="badge">1</div>
-          </div>
-        </div>
-      </a>
-      <a href="chat1.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="./images/friend5.jpg"
-              class="user-component__avatar user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">WonYung</h4>
-              <h6 class="user-component__subtitle">Always Study!!</h6>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <div class="badge">1</div>
-          </div>
-        </div>
-      </a>
-      <a href="chat2.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="./images/friend1.jpg"
-              class="user-component__avatar user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">SukYung</h4>
-              <h6 class="user-component__subtitle">Hello ~ ~</h6>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <div class="badge">1</div>
-          </div>
-        </div>
-      </a>
-      <a href="chat3.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="./images/friend2.jpg"
-              class="user-component__avatar user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">SunYung</h4>
-              <h6 class="user-component__subtitle">I want health girl.</h6>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <div class="badge">2</div>
-          </div>
-        </div>
-      </a>
-      <a href="chat4.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="./images/friend3.jpg"
-              class="user-component__avatar user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">JuLee</h4>
-              <h6 class="user-component__subtitle">Hi yo~!</h6>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-          </div>
-        </div>
-      </a>
-      <a href="chat5.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="./images/friend4.jpg"
-              class="user-component__avatar user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">CheaBin</h4>
-              <h6 class="user-component__subtitle">When we'll meet?</h6>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <div class="badge">3</div>
-          </div>
-        </div>
-      </a>
-    </main>
-
-    <!-- Nav -->
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__badge-1">8</span>
-            <i class="fas fa-comment fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><i class="fas fa-search fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <span class="nav__badge-2"></span>
-            <i class="fas fa-ellipsis-h fa-2x"></i
-          ></a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- No-mobile -->
-    <div id="no-mobile">
-      <span>Your screen is too big 😩</span>
-    </div>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
