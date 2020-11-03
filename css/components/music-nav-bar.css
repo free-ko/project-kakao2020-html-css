@@ -1,15 +1,13 @@
 .music__nav {
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  left: 0;
   width: 100%;
-  background-color: #f9f9fa;
-  padding: 10px 50px;
-  box-sizing: border-box;
-  box-shadow: 5px 5px 40px rgba(118, 146, 180, 0.5);
+  padding: 20px 50px;
+  bottom: 0.4rem;
 }
 
 .music__nav i {
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 
 .music__list {
@@ -39,20 +37,17 @@
   align-items: center;
   justify-content: center;
   padding: 0px;
-  height: 55px;
-  width: 55px;
+  height: 2.5rem;
+  width: 2.5rem;
   position: relative;
-  top: -35px;
+  top: -1.5rem;
   border-radius: 50%;
   box-shadow: 5px 5px 40px rgba(118, 146, 180, 1);
 }
 
-.music__play-btn {
-  margin-left: 3px;
-}
-
 .music__btn:nth-child(3) i {
   color: white;
+  font-size: 1rem;
 }
 
 .music__btn:nth-child(4) {

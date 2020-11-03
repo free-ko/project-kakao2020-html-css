@@ -18,11 +18,12 @@
 .settings__setting i {
   width: 22px;
   opacity: 0.8;
-  font-size: 22px;
+  font-size: 1.2rem;
 }
 
 .settings__setting span {
   margin-left: 20px;
+  font-size: 1rem;
 }
 
 .setting-info {
@@ -31,11 +32,20 @@
 
 .settings__setting-column {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .settings__setting-column > div {
   margin-left: 15px;
 }
+
+.setting-info {
+  font-size: 1rem;
+}
+
+
+
 
 @media screen and (max-width: 380px) {
   .settings__setting-column {

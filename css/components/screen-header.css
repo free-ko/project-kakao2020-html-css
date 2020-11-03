@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px 10px;
   position: relative;
 }
 
@@ -61,4 +61,10 @@
 /* Find Header */
 .find-header {
   margin-bottom: 0.6rem;
+}
+
+
+/* More Header */
+.more-header {
+  margin-bottom: 1rem;
 }

@@ -12,11 +12,11 @@
 }
 
 .new__badge {
-  width: 22px;
-  height: 22px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   background-color: tomato;
-  font-size: 14px;
+  font-size: 10px;
   color: white;
   font-weight: bold;
   display: flex;
@@ -26,7 +26,7 @@
 
 .find__badge {
   position: absolute;
-  right: 0.8rem;
+  right: 0.2rem;
   top: 1rem;
   background-color: tomato;
   width: 6px;
