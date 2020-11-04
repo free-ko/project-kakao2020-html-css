@@ -72,15 +72,24 @@
   font-size: 13px;
 }
 
-@media screen and (max-width: 380px) {
+
+/* iPhone 5/SE */
+@media screen and (max-width: 320px) {
+  .welcome-header {
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+
   .welcome-header__title {
-    margin-bottom: 35px;
-    font-size: 22px;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
     font-weight: bold;
+    line-height: 1.2;
   }
 
   .welcome-header__text {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   #login-form {
@@ -95,6 +104,119 @@
     padding: 10px 0px;
     border-radius: 5px;
     font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+/* iPhone 6/7/8 */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .welcome-header {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+  }
+
+
+  .welcome-header__title {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+
+  .welcome-header__text {
+    font-size: 12px;
+  }
+
+  #login-form {
+    margin: auto;
+  }
+
+  #login-form input::placeholder {
+    font-size: 13px;
+  }
+
+  #login-form input[type="submit"] {
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+/* iPhone 6/7/8/Plus */
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  .welcome-header {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+  }
+
+
+  .welcome-header__title {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+
+  .welcome-header__text {
+    font-size: 14px;
+  }
+
+  #login-form {
+    margin: auto;
+  }
+
+  #login-form input {
+    margin-bottom: 1.8rem;
+  }
+
+  #login-form input::placeholder {
+    font-size: 14px;
+  }
+
+  #login-form input[type="submit"] {
+    padding: 12px 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+/* iPhone X */
+@media screen and (height:812px){
+  .welcome-header {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+  }
+
+
+  .welcome-header__title {
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+
+  .welcome-header__text {
+    font-size: 14px;
+  }
+
+  #login-form {
+    margin: auto;
+  }
+
+  #login-form input {
+    margin-bottom: 1.8rem;
+  }
+
+  #login-form input::placeholder {
+    font-size: 14px;
+  }
+
+  #login-form input[type="submit"] {
+    padding: 12px 0px;
+    border-radius: 5px;
+    font-size: 16px;
     font-weight: bold;
   }
 }
