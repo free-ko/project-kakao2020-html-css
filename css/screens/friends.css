@@ -66,31 +66,28 @@
 
 /* iPhone 5/SE */
 @media screen and (max-width: 320px) {
-  .friends-screen {
-    padding-bottom: 4rem;
+  #friends-display-link {
+    font-size: 12px;
+    padding: 12px 0;
   }
+}
 
+/* iPhone 6/7/8*/
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  #friends-display-link {
+    font-size: 12px;
+    padding: 12px 0;
+  }
+}
+
+/* iPhone 6/7/8/Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+}
+
+/* iPhone X */
+@media screen and (height:812px){
   #friends-display-link {
     font-size: 14px;
     padding: 12px 0;
   }
-
 }
-
-
-/* iPhone 6/7/8*/
-@media screen and (min-width: 321px) and (max-width: 375px) {
-  .friends-screen {
-    padding-bottom: 4rem;
-  }
-}
-
-
-/* iPhone 6/7/8/Plus*/
-@media screen and (min-width: 376px) and (max-width: 414px) {
-  .friends-screen {
-    padding-bottom: 4rem;
-  }
-}
-
-

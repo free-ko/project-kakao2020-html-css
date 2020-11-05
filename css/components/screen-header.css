@@ -33,27 +33,7 @@
   }
 }
 
-@media screen and (max-width: 380px) {
-  .screen-header {
-    padding-top: 18px;
-  }
-
-  .screen-header__title {
-    font-size: 20px;
-  }
-
-  .screen-header__icons span {
-    margin-left: 10px;
-  }
-
-  .screen-header__icons span i {
-    font-size: 14px;
-  }
-}
-
-
 /* Chats Header */
-
 .chats-header {
   margin-bottom: 1rem;
 }
@@ -67,4 +47,66 @@
 /* More Header */
 .more-header {
   margin-bottom: 1rem;
+}
+
+
+
+/* iPhone 5/SE */
+@media screen and (max-width: 320px) {
+  .screen-header__title {
+    font-size: 1.2rem;
+  }
+
+  .screen-header__icons span {
+    margin-left: 10px;
+  }
+
+  .screen-header__icons span i {
+    font-size: 12px;
+  }
+}
+
+/* iPhone 6/7/8 */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .screen-header__title {
+    font-size: 1.2rem;
+  }
+
+  .screen-header__icons span {
+    margin-left: 10px;
+  }
+
+  .screen-header__icons span i {
+    font-size: 12px;
+  }
+}
+
+/* iPhone 6/7/8/Plus */
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  .screen-header__title {
+    font-size: 1.3rem;
+  }
+
+  .screen-header__icons span {
+    margin-left: 10px;
+  }
+
+  .screen-header__icons span i {
+    font-size: 12px;
+  }
+}
+
+/* iPhone X */
+@media screen and (height:812px){
+  .screen-header__title {
+    font-size: 1.4rem;
+  }
+
+  .screen-header__icons span {
+    margin-left: 10px;
+  }
+
+  .screen-header__icons span i {
+    font-size: 12px;
+  }
 }

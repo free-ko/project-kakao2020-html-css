@@ -83,7 +83,6 @@
 }
 
 /* Chats */
-
 .chats-component {
   margin-bottom: 2rem;
 }
@@ -106,7 +105,7 @@
 
   .user-component__title {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .user-component__subtitle {
@@ -115,12 +114,12 @@
 
   .user-component__title--not-bold {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .user-component__status {
     margin-top: 6px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .user-component__time {
@@ -137,6 +136,7 @@
 
   .user__now-listening i {
     padding-left: 0;
+    font-size: 8px;
   }
 
 }
@@ -158,7 +158,7 @@
 
   .user-component__title {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .user-component__subtitle {
@@ -167,12 +167,12 @@
 
   .user-component__title--not-bold {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .user-component__status {
     margin-top: 8px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .user-component__time {
@@ -194,11 +194,6 @@
 
 /* iPhone 6/7/8/Plus */
 @media screen and (min-width: 376px) and (max-width: 414px) {
-  .user-component__avatar {
-    width: 70px;
-    height: 70px;
-  }
-  
   .user-component__column:last-child > div {
     font-size: 12px;
   }
@@ -214,21 +209,21 @@
 
   .user-component__title {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 14px;
   }
 
   .user-component__subtitle {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 
   .user-component__title--not-bold {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .user-component__status {
-    margin-top: 10px;
-    font-size: 12px;
+    margin-top: 8px;
+    font-size: 10px;
   }
 
   .user-component__time {
@@ -250,11 +245,6 @@
 
 /* iPhone X */
 @media screen and (height:812px) {
-  .user-component__avatar {
-    width: 75px;
-    height: 75px;
-  }
-  
   .user-component__column:last-child > div {
     font-size: 12px;
   }
@@ -264,17 +254,21 @@
   }
 
   .user-component__avatar--xl {
-    width: 76px;
-    height: 76px;
+    width: 67px;
+    height: 67px;
+  }
+  .user-component__avatar {
+    width: 65px;
+    height: 65px;
   }
 
   .user-component__title {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 16px;
   }
 
   .user-component__subtitle {
-    font-size: 0.9rem;
+    font-size: 12px;
   }
 
   .user-component__title--not-bold {
@@ -283,6 +277,7 @@
   }
 
   .user-component__status {
+    margin-top: 8px;
     font-size: 12px;
   }
 
