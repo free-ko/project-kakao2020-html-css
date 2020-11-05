@@ -81,6 +81,10 @@ body {
   .main-screen {
     padding-bottom: 4rem;
   }
+
+  .chats-screen {
+    padding-bottom: 0;
+  }
   
   .phone {
     margin-top: 20px;
@@ -103,6 +107,10 @@ body {
   .main-screen {
     padding-bottom: 4rem;
   }
+
+  .chats-screen {
+    padding-bottom: 0.5rem;
+  }
   
   .phone {
     background-color: white;
@@ -122,6 +130,10 @@ body {
 @media screen and (min-width: 376px) and (max-width: 414px) {
   .main-screen {
     padding-bottom: 4rem;
+  }
+
+  .chats-screen {
+    padding-bottom: 0.5rem;
   }
   
   .phone {
@@ -144,6 +156,10 @@ body {
     padding-bottom: 3rem;
   }
   
+  .chats-screen {
+    padding-bottom: 0.5rem;
+  }
+
   .phone {
     margin-top: 4rem;
     background-color: white;
