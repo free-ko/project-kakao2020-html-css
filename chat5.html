@@ -6,80 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat | Kokoa Clone</title>
   </head>
-  <body id="chat-screen">
-    <!-- Status-Bar -->
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>Service</span>
-        <i class="fas fa-wifi"></i>
-      </div>
-      <div class="status-bar__column js-clock">
-        <span>18:43</span>
-      </div>
-      <div class="status-bar__column">
-        <span>100%</span>
-        <i class="fas fa-battery-full fa-lg"></i>
-        <i class="fas fa-bolt"></i>
+  <body class="phone-bg">
+    <div class="phone">
+      <div class="chat-screen">
+        <!-- Status-Bar -->
+        <div class="status-bar">
+          <div class="status-bar__column">
+            <span>Service</span>
+            <i class="fas fa-wifi"></i>
+          </div>
+          <div class="status-bar__column js-clock">
+            <span>18:43</span>
+          </div>
+          <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+          </div>
+        </div>
+    
+        <!-- Alt-Header -->
+        <header class="alt-header">
+          <div class="alt-header__column">
+            <a href="#" onclick="history.back()">
+              <i class="fas fa-angle-left fa-3x"></i>
+            </a>
+          </div>
+          <div class="alt-header__column">
+            <h1 class="alt-header__title">CheaBin</h1>
+          </div>
+          <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+          </div>
+        </header>
+    
+        <!-- Main-Screen -->
+        <main class="main-screen main-chat">
+          <div class="chat__timestamp">Sunday, Sept 30, 2020</div>
+          <div class="message-row incoming-message">
+            <img src="./images/friend4.jpg" />
+            <div class="message-row__content">
+              <span class="message__author">Cheabin</span>
+              <div class="message__info">
+                <span class="message__bubble">Wow!!!</span>
+                <span class="message__time">11:21</span>
+              </div>
+            </div>
+          </div>
+          <div class="message-row sent-message">
+            <div class="message-row__content">
+              <div class="message__info">
+                <span class="message__bubble">YoYo!</span>
+                <span class="message__time">11:21</span>
+              </div>
+            </div>
+          </div>
+        </main>
+    
+        <!-- From -->
+        <form class="reply">
+          <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+          </div>
+          <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="far fa-smile-wink fa-lg"></i>
+            <button>
+              <i class="fas fa-arrow-up"></i>
+            </button>
+          </div>
+        </form>
       </div>
     </div>
 
-    <!-- Alt-Header -->
-    <header class="alt-header">
-      <div class="alt-header__column">
-        <a href="#" onclick="history.back()">
-          <i class="fas fa-angle-left fa-3x"></i>
-        </a>
-      </div>
-      <div class="alt-header__column">
-        <h1 class="alt-header__title">CheaBin</h1>
-      </div>
-      <div class="alt-header__column">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-bars fa-lg"></i></span>
-      </div>
-    </header>
-
-    <!-- Main-Screen -->
-    <main class="main-screen main-chat">
-      <div class="chat__timestamp">Sunday, Sept 30, 2020</div>
-      <div class="message-row incoming-message">
-        <img src="./images/friend4.jpg" />
-        <div class="message-row__content">
-          <span class="message__author">Cheabin</span>
-          <div class="message__info">
-            <span class="message__bubble">Wow!!!</span>
-            <span class="message__time">11:21</span>
-          </div>
-        </div>
-      </div>
-      <div class="message-row sent-message">
-        <div class="message-row__content">
-          <div class="message__info">
-            <span class="message__bubble">YoYo!</span>
-            <span class="message__time">11:21</span>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <!-- From -->
-    <form class="reply">
-      <div class="reply__column">
-        <i class="far fa-plus-square fa-lg"></i>
-      </div>
-      <div class="reply__column">
-        <input type="text" placeholder="Write a message..." />
-        <i class="far fa-smile-wink fa-lg"></i>
-        <button>
-          <i class="fas fa-arrow-up"></i>
-        </button>
-      </div>
-    </form>
-
-    <!-- No-mobile -->
-    <div id="no-mobile">
-      <span>Your screen is too big 😩</span>
-    </div>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
