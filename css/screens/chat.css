@@ -215,46 +215,34 @@
 
 /* iPhone 5/SE */
 @media screen and (max-width:320px) {
-  body {
-    height: auto;
-  }
-
-  #chat-screen .alt-header {
-    top: 12px;
-  }
-
-  .main-screen {
-    padding-bottom: 0;
-  }
-
-  .main-chat {
-    margin-top: 5.5rem;
-  }
-
-  .chat__timestamp {
-    padding: 10px;
-    font-size: 11px;
-  }
-
-  .message__author {
-    font-size: 12px;
-  }
-
-  .message__time {
-    font-size: 10px;
+ .chat-screen {
+    width: 15rem;
+    height: 28rem;
+    border-radius: 25px;
   }
 
   .message__bubble {
-    font-size: 13px;
-    padding: 10px;
+    background-color: white;
+    padding: 9px;
+    font-size: 11px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    margin-right: 5px;
+  }
+
+  .message__time,
+  .message__author {
+    opacity: 0.8;
+    font-size: 8px;
+  }
+
+  .chat__timestamp {
+    padding: 9px;
+    font-size: 8px;
   }
 
   .reply {
-    padding: 2px 16px;
-  }
-
-  .reply:focus-within input {
-    transform: translateY(-80px);
+    bottom: 0.2rem;
   }
 }
 
@@ -262,85 +250,100 @@
 
 /* iPhone 6/7/8 */
 @media screen and (min-width: 321px) and (max-width: 375px) {
-  #chat-screen .alt-header {
-    top: 12px;
-  }
-
-  .main-chat {
-    margin-top: 6.2rem;
-  }
-
-  .chat__timestamp {
-    padding: 10px;
-    font-size: 11px;
-  }
-
-  .message__author{
-    font-size: 14px;
-    margin-bottom: 6px;
-  }
-
-  .message__time {
-    font-size: 12px;
+  .chat-screen {
+    width: 16rem;
+    height: 29.5rem;
+    border-radius: 25px;
   }
 
   .message__bubble {
-    font-size: 16px;
-    padding: 12px;
+    background-color: white;
+    padding: 9px;
+    font-size: 11px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    margin-right: 5px;
+  }
+
+  .message__time,
+  .message__author {
+    opacity: 0.8;
+    font-size: 8px;
+  }
+
+  .chat__timestamp {
+    padding: 9px;
+    font-size: 8px;
   }
 
   .reply {
-    padding: 2px 16px;
-  }
-
-  .reply:focus-within input {
-    transform: translateY(-80px);
+    bottom: 0.6rem;
   }
 }
 
 
 /* iPhone 6/7/8/Plus */
 @media screen and (min-width: 376px) and (max-width: 414px) {
-  #chat-screen .alt-header {
-    top: 12px;
-  }
-
-  .main-chat {
-    margin-top: 6.7rem;
-  }
-
-  .chat__timestamp {
-    padding: 11px;
-    font-size: 12px;
-  }
-
-  .message__author{
-    font-size: 14px;
-    margin-bottom: 8px;
-  }
-
-  .message__time {
-    font-size: 12px;
+  .chat-screen {
+    width: 17rem;
+    height: 31.5rem;
+    border-radius: 25px;
   }
 
   .message__bubble {
-    font-size: 16px;
-    padding: 12px;
+    background-color: white;
+    padding: 9px;
+    font-size: 11px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    margin-right: 5px;
+  }
+
+  .message__time,
+  .message__author {
+    opacity: 0.8;
+    font-size: 8px;
+  }
+
+  .chat__timestamp {
+    padding: 9px;
+    font-size: 8px;
   }
 
   .reply {
-    padding: 2px 16px;
+    bottom: 0.6rem;
   }
-
-  .reply:focus-within input {
-    transform: translateY(-80px);
-  }
-
 }
 
 /* iPhone X */
 @media screen and (height: 812px) {
-  .main-chat {
-    margin-top: 6.7rem;
+  .chat-screen {
+    width: 18rem;
+    height: 33.5rem;
+    border-radius: 25px;
+  }
+
+  .message__bubble {
+    background-color: white;
+    padding: 9px;
+    font-size: 11px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    margin-right: 5px;
+  }
+
+  .message__time,
+  .message__author {
+    opacity: 0.8;
+    font-size: 8px;
+  }
+
+  .chat__timestamp {
+    padding: 9px;
+    font-size: 8px;
+  }
+
+  .reply {
+    bottom: 0.6rem;
   }
 }

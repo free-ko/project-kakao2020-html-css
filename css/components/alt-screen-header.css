@@ -40,19 +40,28 @@
 /* iPhone 5/SE */
 @media screen and (max-width:320px) {
   .alt-header {
-    margin-top: 10px;
+    margin-bottom: 0;
   }
 
-  .alt-header__column:nth-child(2) {
-    width: 38%;
+  .alt-header__column:nth-child(1) {
+    width: 0;
   }
+
+  .alt-header__column:last-child {
+    padding-top: 3px;
+  }
+
+  .alt-header__column span:last-child {
+    margin-left: 10px;
+  }
+
 
   .alt-header__title {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .alt-header__column i {
-    font-size: 20px;
+    font-size: 14px;
   }
 }
 
@@ -60,15 +69,28 @@
 /* iPhone 6/7/8 */
 @media screen and (min-width:321px) and (max-width:375px) {
   .alt-header {
-    margin-top: 20px;
+    margin-bottom: 0;
   }
 
+  .alt-header__column:nth-child(1) {
+    width: 0;
+  }
+
+  .alt-header__column:last-child {
+    padding-top: 3px;
+  }
+
+  .alt-header__column span:last-child {
+    margin-left: 12px;
+  }
+
+
   .alt-header__title {
-    font-size: 1.4rem;
+    font-size: 18px;
   }
 
   .alt-header__column i {
-    font-size: 1.3rem;
+    font-size: 14px;
   }
 }
 
@@ -76,33 +98,55 @@
 /* iPhone 6/7/8/Plus */
 @media screen and (min-width: 376px) and (max-width: 414px) {
   .alt-header {
-    margin-top: 20px;
+    margin-bottom: 0;
   }
 
+  .alt-header__column:nth-child(1) {
+    width: 0;
+  }
+
+  .alt-header__column:last-child {
+    padding-top: 3px;
+  }
+
+  .alt-header__column span:last-child {
+    margin-left: 12px;
+  }
+
+
   .alt-header__title {
-    font-size: 1.6rem;
+    font-size: 18px;
   }
 
   .alt-header__column i {
-    font-size: 1.5rem;
+    font-size: 16px;
   }
 }
 
 /* iPhone X */
 @media screen and (height: 812px) {
   .alt-header {
-    margin-top: 20px;
+    margin-bottom: 0;
   }
 
-  .alt-header__column:nth-child(2) {
-    width: 39%;
+  .alt-header__column:nth-child(1) {
+    width: 0;
   }
+
+  .alt-header__column:last-child {
+    padding-top: 3px;
+  }
+
+  .alt-header__column span:last-child {
+    margin-left: 12px;
+  }
+
 
   .alt-header__title {
-    font-size: 1.7rem;
+    font-size: 20px;
   }
 
   .alt-header__column i {
-    font-size: 1.5rem;
+    font-size: 18px;
   }
 }
