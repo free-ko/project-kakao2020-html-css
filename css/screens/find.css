@@ -4,6 +4,7 @@
   border-top: var(--main-border);
   border-bottom: var(--main-border);
 }
+
 .recommended-friends__title {
   font-size: 0.9rem;
   color: var(--gray);
@@ -124,21 +125,29 @@
 
 /* iPhone 5/SE */
 @media screen and (max-width: 320px) {
+  #find-screen {
+    padding-bottom: 1rem;
+  }
+
   .recommended-friends__title {
     font-size: 0.8rem;
   }
 
   .recommended-friends span {
-    font-size: 1rem;
-  }
-
-  .open-chat {
-    padding-bottom: 2.5rem;
+    font-size: 12px;
+    line-height: 1.4;
   }
 
   .open-chat__header {
-    font-size: 0.8rem;
     margin-bottom: 0;
+  }
+
+  .open-chat__header h4 {
+    font-size: 12px;
+  }
+
+  .open-chat__header span {
+    font-size: 10px;
   }
 
   .open-post {
@@ -146,50 +155,56 @@
   }
 
   .open-post__title {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .open-post__hashtags {
-    font-size: 12px;
+    font-size: 8px;
   }
 
-  .open-post__member-count,
-  .open-post__member-status {
-    font-size: 12px;
+  .open-post__members .divider {
+    width: 2px;
+    height: 10px;
   }
 
   .open-post__photo img {
-    width: 90px;
-    height: 90px;
+    width: 65px;
+    height: 65px;
   }
 
   .open-post__heart-count {
-    padding: 3px 7px;
-    bottom: 8px;
-    right: 8px;
-    font-size: 6px;
+    padding: 2px 5px;
+    bottom: 4px;
+    right: 4px;
   }
-
 }
 
 
 /* iPhone 6/7/8*/
 @media screen and (min-width: 321px) and (max-width: 375px) {
+  #find-screen {
+    padding-bottom: 1rem;
+  }
+
   .recommended-friends__title {
     font-size: 0.8rem;
   }
 
   .recommended-friends span {
-    font-size: 1rem;
-  }
-
-  .open-chat {
-    padding-bottom: 5rem;
+    font-size: 13px;
+    line-height: 1.4;
   }
 
   .open-chat__header {
-    font-size: 0.8rem;
     margin-bottom: 0;
+  }
+
+  .open-chat__header h4 {
+    font-size: 12px;
+  }
+
+  .open-chat__header span {
+    font-size: 10px;
   }
 
   .open-post {
@@ -197,49 +212,56 @@
   }
 
   .open-post__title {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .open-post__hashtags {
-    font-size: 12px;
+    font-size: 8px;
   }
 
-  .open-post__member-count,
-  .open-post__member-status {
-    font-size: 12px;
+  .open-post__members .divider {
+    width: 2px;
+    height: 10px;
   }
 
   .open-post__photo img {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
   }
 
   .open-post__heart-count {
-    padding: 3px 7px;
-    bottom: 8px;
-    right: 8px;
-    font-size: 6px;
+    padding: 2px 5px;
+    bottom: 4px;
+    right: 4px;
   }
 }
 
 
-/* iPhone 6/7/8/Plus*/
+/* iPhone 6/7/8/Plus */
 @media screen and (min-width: 376px) and (max-width: 414px) {
+  #find-screen {
+    padding-bottom: 1rem;
+  }
+
   .recommended-friends__title {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .recommended-friends span {
-    font-size: 1.2rem;
-  }
-
-  .open-chat {
-    padding-bottom: 5rem;
+    font-size: 13px;
+    line-height: 1.4;
   }
 
   .open-chat__header {
-    font-size: 0.9rem;
     margin-bottom: 0;
+  }
+
+  .open-chat__header h4 {
+    font-size: 12px;
+  }
+
+  .open-chat__header span {
+    font-size: 10px;
   }
 
   .open-post {
@@ -247,27 +269,34 @@
   }
 
   .open-post__title {
-    font-size: 1.2rem;
+    font-size: 14px;
   }
 
   .open-post__hashtags {
-    font-size: 12px;
+    font-size: 8px;
   }
 
-  .open-post__member-count,
-  .open-post__member-status {
-    font-size: 12px;
+  .open-post__members .divider {
+    width: 2px;
+    height: 10px;
   }
 
   .open-post__photo img {
-    width: 7rem;
-    height: 7rem;
+    width: 75px;
+    height: 75px;
   }
 
   .open-post__heart-count {
-    padding: 3px 7px;
-    bottom: 8px;
-    right: 8px;
-    font-size: 6px;
+    padding: 3px 6px;
+    bottom: 4px;
+    right: 4px;
+  }
+}
+
+/* iPhone X */
+@media screen and (height: 812px) {
+  .open-post__photo img {
+    width: 80px;
+    height: 80px;
   }
 }
