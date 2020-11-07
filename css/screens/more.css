@@ -51,7 +51,10 @@
   width: 94%;
 }
 
-@media screen and (max-width: 380px) {
+
+
+/* iPhone 5/SE */
+@media screen and (max-width:320px) {
   .more-suggestions__title {
     font-size: 14px;
     margin-bottom: 25px;
@@ -71,11 +74,112 @@
   }
 
   .more-suggestions__icon-image i {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .more-suggestions__icon-text {
-    font-size: 12px;
+    font-size: 11px;
     text-align: center;
+  }
+
+  .more-suggestions-2 {
+    margin-top: 2.4rem;
+    margin-left: -1px;
+    width: 100%;
+  }
+}
+
+/* iPhone 6/7/8 */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .more-suggestions__title {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  .more-suggestions__icons {
+    justify-content: space-around;
+  }
+
+  .more-suggestions__icon {
+    margin-right: 0;
+  }
+
+  .more-suggestions__icon-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .more-suggestions__icon-image i {
+    font-size: 18px;
+  }
+
+  .more-suggestions__icon-text {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .more-suggestions-2 {
+    margin-top: 2.6rem;
+    margin-left: -1px;
+    width: 100%;
+  }
+}
+
+/* iPhone 6/7/8/Plus */
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  .more-suggestions__title {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  .more-suggestions__icons {
+    justify-content: space-around;
+  }
+
+  .more-suggestions__icon {
+    margin-right: 0;
+  }
+
+  .more-suggestions__icon-image {
+    width: 43px;
+    height: 43px;
+  }
+
+  .more-suggestions__icon-image i {
+    font-size: 18px;
+  }
+
+  .more-suggestions__icon-text {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .more-suggestions-2 {
+    margin-top: 2.6rem;
+    margin-left: -1px;
+    width: 100%;
+  }
+}
+
+/* iPhone X */
+@media screen and (height:812px){
+  .more-suggestions__icon-image {
+    width: 43px;
+    height: 43px;
+  }
+
+  .more-suggestions__icon-image i {
+    font-size: 18px;
+  }
+
+  .more-suggestions__icon-text {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .more-suggestions-2 {
+    margin-top: 2.6rem;
+    margin-left: -1px;
+    width: 100%;
   }
 }

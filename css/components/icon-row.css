@@ -42,7 +42,7 @@
 
   .icon-row__icon span {
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
@@ -51,6 +51,18 @@
 @media screen and (min-width: 381px) and (max-width: 414px) {
   .icon-row__icon i {
     font-size: 1.8rem;
+  }
+
+  .icon-row__icon span {
+    margin-top: 10px;
+    font-size: 0.7rem;
+  }
+}
+
+/* iPhone X */
+@media screen and (height: 812px) {
+  .icon-row__icon i {
+    font-size: 1.9rem;
   }
 
   .icon-row__icon span {

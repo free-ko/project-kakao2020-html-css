@@ -91,7 +91,7 @@
 /* iPhone 5/SE */
 @media screen and (max-width: 320px) {
   .user-component__column:last-child > i {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .user-component__avatar--xl {
