@@ -206,7 +206,7 @@
 }
 
 
-/* Mobile - iPhone 5/SE */
+/* iPhone 5/SE */
 @media screen and (max-width: 320px) {
   #music-screen {
     padding-bottom: 1rem;
@@ -390,6 +390,69 @@
   }
   .music-open-post__heart-count {
     padding: 2px 5.5px;
+    bottom: 6px;
+    right: 5px;
+  }
+}
+
+/* iPhone X */
+@media screen and (height:812px){
+  #music-screen {
+    padding-bottom: 1rem;
+  }
+
+  .music__list--img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .music-icon-row__icon span {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  
+  .recommended-music__list--img {
+    width: 5.7rem;
+    height: 5.7rem;
+  }
+
+  .music-icon-row__icon i {
+    font-size: 1.4rem;
+  }
+
+  .recommended-music {
+    margin-top: 1.8rem;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+
+  .music-open-chat {
+    margin-top: 2rem;
+  }
+
+  .music-open-post {
+    margin-top: 0;
+  }
+
+  .music-open-post {
+    margin-bottom: 2rem;
+  }
+
+  .music-open-post__title {
+    font-size: 18px;
+  }
+
+  .music-open-post__hashtags {
+    font-size: 10px;
+  }
+
+  .music-open-post__photo img {
+    width: 80px;
+    height: 80px;
+  }
+  .music-open-post__heart-count {
+    padding: 3px 6px;
     bottom: 6px;
     right: 5px;
   }
