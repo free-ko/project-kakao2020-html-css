@@ -68,7 +68,8 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+/* iPhone 5/SE */
+@media screen and (max-width: 320px) {
   .music__nav {
     padding: 10px 25px;
   }
@@ -78,9 +79,9 @@
   }
 
   .music__btn:nth-child(3) {
-    top: -30px;
-    height: 45px;
-    width: 45px;
+    top: -20px;
+    height: 40px;
+    width: 40px;
     animation-delay: 0.5s;
   }
 }

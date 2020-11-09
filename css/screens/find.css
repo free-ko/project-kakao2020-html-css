@@ -295,8 +295,23 @@
 
 /* iPhone X */
 @media screen and (height: 812px) {
+  .open-post__title {
+    font-size: 1rem;
+  }
+
+  .open-post__hashtags {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  
   .open-post__photo img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
+  }
+
+  .open-post__heart-count {
+    padding: 3px 6px;
+    bottom: 5px;
+    right: 5px;
   }
 }
