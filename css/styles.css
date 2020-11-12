@@ -49,7 +49,7 @@ body {
 }
 
 .phone {
-  margin-top: 50px;
+  margin-top: 3.5rem;
   background-color: white;
   width: 350px;
   height: 700px;
@@ -78,6 +78,19 @@ body {
 
 /* iPhone 5/SE */
 @media screen and (max-width:320px) {
+  .phone {
+    margin-top: 1rem;
+    background-color: white;
+    width: 17rem;
+    height: 33rem;
+  }
+
+  .screen {
+    width: 15rem;
+    height: 28rem;
+    border-radius: 25px;
+  }
+
   .main-screen {
     padding-bottom: 4rem;
   }
@@ -86,36 +99,16 @@ body {
     padding-bottom: 0;
   }
   
-  .phone {
-    margin-top: 20px;
-    background-color: white;
-    width: 17rem;
-    height: 33rem;
-
-  }
-
-  .screen {
-    width: 15rem;
-    height: 28rem;
-    border-radius: 25px;
-  }
 }
 
 
 /* iPhone 6/7/8 */
 @media screen and (min-width: 321px) and (max-width: 375px) {
-  .main-screen {
-    padding-bottom: 4rem;
-  }
-
-  .chats-screen {
-    padding-bottom: 0.5rem;
-  }
-  
   .phone {
     background-color: white;
     width: 18rem;
     height: 35rem;
+    margin-top: 2.5rem;
   }
 
   .screen {
@@ -123,11 +116,7 @@ body {
     height: 29.5rem;
     border-radius: 25px;
   }
-}
 
-
-/* iPhone 6/7/8/Plus */
-@media screen and (min-width: 376px) and (max-width: 414px) {
   .main-screen {
     padding-bottom: 4rem;
   }
@@ -136,10 +125,16 @@ body {
     padding-bottom: 0.5rem;
   }
   
+}
+
+
+/* iPhone 6/7/8/Plus */
+@media screen and (min-width: 376px) and (max-width: 414px) {
   .phone {
     background-color: white;
     width: 19rem;
     height: 37rem;
+    margin-top: 3rem;
   }
 
   .screen {
@@ -147,19 +142,19 @@ body {
     height: 31rem;
     border-radius: 25px;
   }
+
+  .main-screen {
+    padding-bottom: 4rem;
+  }
+
+  .chats-screen {
+    padding-bottom: 0.5rem;
+  }
 }
 
 
 /* iPhone X */
 @media screen and (height:812px){
-  .main-screen {
-    padding-bottom: 3rem;
-  }
-  
-  .chats-screen {
-    padding-bottom: 0.5rem;
-  }
-
   .phone {
     margin-top: 4rem;
     background-color: white;
@@ -172,4 +167,13 @@ body {
     height: 33.5rem;
     border-radius: 25px;
   }
+
+  .main-screen {
+    padding-bottom: 3rem;
+  }
+  
+  .chats-screen {
+    padding-bottom: 0.5rem;
+  }
+
 }
