@@ -1,4 +1,4 @@
-# [KaKao Clone](https://free-ko.github.io/study-clone-kakao2020/)
+# [KaKao Clone](https://free-ko.github.io/study-clone-kakao2020/) 💬
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ### 주요 학습 포인트
