@@ -1,4 +1,7 @@
 # KaKao Clone
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+[Kakao Clone](https://www.notion.so/Kakao-Clone-6b0c87ba5d8448bf8b762cb4c5d83a1c)
 
 ### 주요 학습 포인트
 - 모바일, 웹 반응에 맞게 화면 구상
